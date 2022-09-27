@@ -1,0 +1,417 @@
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+/* 'a_1' top big box */
+.a_1{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+/* 'a_2' right box in "t.b.b." */
+.a_2{
+    display: flex;
+    flex-shrink: 0;
+    height: 48px;
+    width: 263.718px;
+    padding-left: 32px;
+    padding-right: 4px;
+    box-sizing: border-box;
+    align-items: center;
+}
+/* 'a_3' part one in 'right box in "t.b.b."'*/
+.a_3{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 24px;
+    width: 131.703px;
+    padding-right: 15px;
+    align-items: center;
+    vertical-align: middle;
+}
+/* 'a_4' part two */
+.a_4{
+    float: right;
+    height: 48px;
+    width: 96px;
+    position: relative;
+    display: block;
+}
+/* 'a_5' is 'gmail' part */
+.a_5{
+    float: left;
+    height: 24px;
+    width: 33.953px;
+    padding-left: 15px;
+    align-items: center;
+    display: inline-block;
+    padding-top: 4px;
+}
+/* 'a_6' is 'görseller' */
+.a_6{
+    float: left;
+    height: 24px;
+    width: 52.750px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 4px;
+}
+/* 'a_7' is 'button' */
+.a_7{
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    display: inline-block;
+}
+/* 'a_8'  is 'picture' */
+.a_8{
+    float: right;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    vertical-align: middle;
+    display: inline-block;
+}
+/* 'b_1' is 'Google' picture box */
+.b_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 290px;
+    padding-top: 3px;
+}
+/* 'b_2' is picture */
+.b_2{
+    position: relative;
+    margin-top: auto;
+    display: block;
+}
+/* 'c_1' is searching button part */
+.c_1{
+    height: 120px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 17px;
+}
+/* 'c_2' is big middle part */
+.c_2{
+    margin-left: 648px;
+    margin-right: 648px;
+    padding-top: 3px;
+    display: block;
+    height: 134px;
+    position: relative;
+}
+/* 'c_3' is searching button */
+.c_3{
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    z-index: 3;
+}
+/* 'c_4' is in the 'Searching button' */
+.c_4{
+    display: flex;
+    flex: 1;
+    padding: 5px 8px 0 14px;
+    width: 560px;
+    height: 39px;
+}
+/* 'c_5' is magnifying glass logo */
+.c_5{
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;   
+}
+/* 'cc_5' is style things about 'magnifying glass logo' */
+.cc_5{
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    color: #9aa0a6;
+    position: relative;
+    display: inline-block;
+    fill: currentColor;
+}
+/* 'c_6' is the part we write in 'searching button' */
+.c_6{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 443px;
+    height: 39px;
+}
+/* 'cc_6' is style things about the part we write in 'searching button'*/
+.cc_6{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+}
+/* 'c_7' is right and last part in 'searching part' */
+.c_7{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+    width: 84px;
+}
+/* 'c_8' is keybord logo part */
+.c_8{
+    height: 44px;
+    width: 24px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    align-items: center;
+
+}
+/* 'cc_8' is style things about keybord logo */
+.cc_8{
+    background: url(//www.gstatic.com/inputtools/images/tia.png) no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+/* 'c_9' is microphone logo part */
+.c_9{
+    width: 24px;
+    height: 44px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 13px;
+}
+/* 'cc_9' is style things about the microphone logo */
+.cc_9{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+/* 'c_10' is part the under about searching part */
+.c_10{
+    height: 70px;
+    padding-top: 18px;
+    padding-left: 113px;
+}
+/* 'cc_10' style about 'google'da ara' part */
+.cc_10{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+/* 'ccc_10' style about 'kendimi şanslı hissediyorum' part */
+.ccc_10{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+/* second box from below */
+.d_1{
+    height: 332px;
+}
+/* box in second box from below */
+.d_2{
+    font-size: small;
+    margin-bottom: 24px;
+    text-align: center;
+    height: 28px;
+    display: flexbox;
+}
+/* 'd_3' is article part */
+.d_3{
+    color: #4d5156;
+    line-height: 28px;
+    padding-top: -3px;
+}
+/* 'dd_3' is style things about article part */
+.dd_3{
+    color: #1a0dab;
+    text-decoration: none;
+    padding: 0 3px;
+}
+/* 'e_1' is last and below part */
+.e_1{
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    height: 95px;
+}
+/* 'e_2' is 'Türkiye' text part */
+.e_2{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+/* 'e_3' is last part in the last part */
+.e_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 0 20px;
+    height: 47px;
+}
+/* 'e_4' is left part */
+.e_4{
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 47px;
+}
+/* 'ee_4' is 'Hakkında' part */
+.ee_4{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 'eee_4' is 'Reklam' part */
+.eee_4{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 'eeee_4' is 'İşletme' part */
+.eeee_4{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* 'eeeee_4' is 'Arama nasıl çalışır?' part */
+.eeeee_4{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* middle part */
+.e_5{
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 47px;
+}
+/* 'ee_5' is style about middle part article */
+.ee_5{
+    display: inline-block;
+    color: #70757a;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 14px;
+    height: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 14px;
+    width: 203.859px;
+}
+/* 'eee_5' is style things about image */
+.eee_5{
+    height: 13.5px;
+    margin-right: 6px;
+    padding-top: 1px;
+    display: inline-block;
+}
+/* 'eeee_5' is style things about article*/
+.eeee_5{
+    white-space: nowrap;
+    vertical-align: top;
+    margin-top: 1px;
+    display: inline-block;
+}
+/* 'e_6' is right part */
+.e_6{
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+    display: flex;
+    flex-wrap: wrap;
+    height: 47px;
+}
+/* 'ee_6' is style things about 'gizlilik' */
+.ee_6{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* 'eee_6' is style thinga about 'şartlar' */
+.eee_6{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* 'eeee_6' is style thinga about 'ayarlar' */
+.eeee_6{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 14px;
+}
+/**/
